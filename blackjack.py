@@ -27,163 +27,163 @@ class Cards (object):
     def dealt_cards (self, other, g):       #The following cards were provided by Norm's internet connection
         if self.suit == 0:  # Look through hearts
             if self.rank == 1:
-                h1 = PhotoImage (file = "AoH.gif")
+                h1 = PhotoImage (file = "cards/AoH.gif")
                 other.append (h1)
             elif self.rank == 2:
-                h2 = PhotoImage (file = "2oH.gif")
+                h2 = PhotoImage (file = "cards/2oH.gif")
                 other.append (h2)
             elif self.rank == 3:
-                h3 = PhotoImage (file = "3oH.gif")
+                h3 = PhotoImage (file = "cards/3oH.gif")
                 other.append (h3)
             elif self.rank == 4:
-                h4 = PhotoImage (file = "4oH.gif")
+                h4 = PhotoImage (file = "cards/4oH.gif")
                 other.append (h4)
             elif self.rank == 5:
-                h5 = PhotoImage (file = "5oH.gif")
+                h5 = PhotoImage (file = "cards/5oH.gif")
                 other.append (h5)
             elif self.rank == 6:
-                h6 = PhotoImage (file = "6oH.gif")
+                h6 = PhotoImage (file = "cards/6oH.gif")
                 other.append (h6)
             elif self.rank == 7:
-                h7 = PhotoImage (file = "7oH.gif")
+                h7 = PhotoImage (file = "cards/7oH.gif")
                 other.append (h7)
             elif self.rank == 8:
-                h8 = PhotoImage (file = "8oH.gif")
+                h8 = PhotoImage (file = "cards/8oH.gif")
                 other.append (h8)
             elif self.rank == 9:
-                h9 = PhotoImage (file = "9oH.gif")
+                h9 = PhotoImage (file = "cards/9oH.gif")
                 other.append (h9)
             elif self.rank == 10:
-                h10 = PhotoImage (file = "10oH.gif")
+                h10 = PhotoImage (file = "cards/10oH.gif")
                 other.append (h10)
             elif self.rank == 11:
-                h11 = PhotoImage (file = "JoH.gif")
+                h11 = PhotoImage (file = "cards/JoH.gif")
                 other.append (h11)
             elif self.rank == 12:
-                h12 = PhotoImage (file = "QoH.gif")
+                h12 = PhotoImage (file = "cards/QoH.gif")
                 other.append (h12)
             elif self.rank == 13:
-                h13 = PhotoImage (file = "KoH.gif")
+                h13 = PhotoImage (file = "cards/KoH.gif")
                 other.append (h13)
         elif self.suit == 1:    # Look through diamonds
             if self.rank == 1:
-                d1 = PhotoImage (file = "AoD.gif")
+                d1 = PhotoImage (file = "cards/AoD.gif")
                 other.append (d1)
             elif self.rank == 2:
-                d2 = PhotoImage (file = "2oD.gif")
+                d2 = PhotoImage (file = "cards/2oD.gif")
                 other.append (d2)
             elif self.rank == 3:
-                d3 = PhotoImage (file = "3oD.gif")
+                d3 = PhotoImage (file = "cards/3oD.gif")
                 other.append (d3)
             elif self.rank == 4:
-                d4 = PhotoImage (file = "4oD.gif")
+                d4 = PhotoImage (file = "cards/4oD.gif")
                 other.append (d4)
             elif self.rank == 5:
-                d5 = PhotoImage (file = "5oD.gif")
+                d5 = PhotoImage (file = "cards/5oD.gif")
                 other.append (d5)
             elif self.rank == 6:
-                d6 = PhotoImage (file = "6oD.gif")
+                d6 = PhotoImage (file = "cards/6oD.gif")
                 other.append (d6)
             elif self.rank == 7:
-                d7 = PhotoImage (file = "7oD.gif")
+                d7 = PhotoImage (file = "cards/7oD.gif")
                 other.append (d7)
             elif self.rank == 8:
-                d8 = PhotoImage (file = "8oD.gif")
+                d8 = PhotoImage (file = "cards/8oD.gif")
                 other.append (d8)
             elif self.rank == 9:
-                d9 = PhotoImage (file = "9oD.gif")
+                d9 = PhotoImage (file = "cards/9oD.gif")
                 other.append (d9)
             elif self.rank == 10:
-                d10 = PhotoImage (file = "10oD.gif")
+                d10 = PhotoImage (file = "cards/10oD.gif")
                 other.append (d10)
             elif self.rank == 11:
-                d11 = PhotoImage (file = "JoD.gif")
+                d11 = PhotoImage (file = "cards/JoD.gif")
                 other.append (d11)
             elif self.rank == 12:
-                d12 = PhotoImage (file = "QoD.gif")
+                d12 = PhotoImage (file = "cards/QoD.gif")
                 other.append (d12)
             elif self.rank == 13:
-                d13 = PhotoImage (file = "KoD.gif")
+                d13 = PhotoImage (file = "cards/KoD.gif")
                 other.append (d13)
         elif self.suit == 2:    # Look through the spades
             if self.rank == 1:
-                s1 = PhotoImage (file = "AoS.gif")
+                s1 = PhotoImage (file = "cards/AoS.gif")
                 other.append (s1)
             elif self.rank == 2:
-                s2 = PhotoImage (file = "2oS.gif")
+                s2 = PhotoImage (file = "cards/2oS.gif")
                 other.append (s2)
             elif self.rank == 3:
-                s3 = PhotoImage (file = "3oS.gif")
+                s3 = PhotoImage (file = "cards/3oS.gif")
                 other.append (s3)
             elif self.rank == 4:
-                s4 = PhotoImage (file = "4oS.gif")
+                s4 = PhotoImage (file = "cards/4oS.gif")
                 other.append (s4)
             elif self.rank == 5:
-                s5 = PhotoImage (file = "5oS.gif")
+                s5 = PhotoImage (file = "cards/5oS.gif")
                 other.append (s5)
             elif self.rank == 6:
-                s6 = PhotoImage (file = "6oS.gif")
+                s6 = PhotoImage (file = "cards/6oS.gif")
                 other.append (s6)
             elif self.rank == 7:
-                s7 = PhotoImage (file = "7oS.gif")
+                s7 = PhotoImage (file = "cards/7oS.gif")
                 other.append (s7)
             elif self.rank == 8:
-                s8 = PhotoImage (file = "8oS.gif")
+                s8 = PhotoImage (file = "cards/8oS.gif")
                 other.append (s8)
             elif self.rank == 9:
-                s9 = PhotoImage (file = "9oS.gif")
+                s9 = PhotoImage (file = "cards/9oS.gif")
                 other.append (s9)
             elif self.rank == 10:
-                s10 = PhotoImage (file = "10oS.gif")
+                s10 = PhotoImage (file = "cards/10oS.gif")
                 other.append (s10)
             elif self.rank == 11:
-                s11 = PhotoImage (file = "JoS.gif")
+                s11 = PhotoImage (file = "cards/JoS.gif")
                 other.append (s11)
             elif self.rank == 12:
-                s12 = PhotoImage (file = "QoS.gif")
+                s12 = PhotoImage (file = "cards/QoS.gif")
                 other.append (s12)
             elif self.rank == 13:
-                s13 = PhotoImage (file = "KoS.gif")
+                s13 = PhotoImage (file = "cards/KoS.gif")
                 other.append (s13)
         elif self.suit == 3:    # Look through the clubs
             if self.rank == 1:
-                c1 = PhotoImage (file = "AoC.gif")
+                c1 = PhotoImage (file = "cards/AoC.gif")
                 other.append (c1)
             elif self.rank == 2:
-                c2 = PhotoImage (file = "2oC.gif")
+                c2 = PhotoImage (file = "cards/2oC.gif")
                 other.append (c2)
             elif self.rank == 3:
-                c3 = PhotoImage (file = "3oC.gif")
+                c3 = PhotoImage (file = "cards/3oC.gif")
                 other.append (c3)
             elif self.rank == 4:
-                c4 = PhotoImage (file = "4oC.gif")
+                c4 = PhotoImage (file = "cards/4oC.gif")
                 other.append (c4)
             elif self.rank == 5:
-                c5 = PhotoImage (file = "5oC.gif")
+                c5 = PhotoImage (file = "cards/5oC.gif")
                 other.append (c5)
             elif self.rank == 6:
-                c6 = PhotoImage (file = "6oC.gif")
+                c6 = PhotoImage (file = "cards/6oC.gif")
                 other.append (c6)
             elif self.rank == 7:
-                c7 = PhotoImage (file = "7oC.gif")
+                c7 = PhotoImage (file = "cards/7oC.gif")
                 other.append (c7)
             elif self.rank == 8:
-                c8 = PhotoImage (file = "8oC.gif")
+                c8 = PhotoImage (file = "cards/8oC.gif")
                 other.append (c8)
             elif self.rank == 9:
-                c9 = PhotoImage (file = "9oC.gif")
+                c9 = PhotoImage (file = "cards/9oC.gif")
                 other.append (c9)
             elif self.rank == 10:
-                c10 = PhotoImage (file = "10oC.gif")
+                c10 = PhotoImage (file = "cards/10oC.gif")
                 other.append (c10)
             elif self.rank == 11:
-                c11 = PhotoImage (file = "JoC.gif")
+                c11 = PhotoImage (file = "cards/JoC.gif")
                 other.append (c11)
             elif self.rank == 12:
-                c12 = PhotoImage (file = "QoC.gif")
+                c12 = PhotoImage (file = "cards/QoC.gif")
                 other.append (c12)
             elif self.rank == 13:
-                c13 = PhotoImage (file = "KoC.gif")
+                c13 = PhotoImage (file = "cards/KoC.gif")
                 other.append (c13)
             return other    
 
@@ -298,7 +298,7 @@ def place_bet (event = None):
         bet_placed = str(x)
         betlabel.config (text = 'Your Wager: $' + bet_placed)
             
-        dcards = PhotoImage (file = "back.gif")     # Declare the back of a card (for the dealer's cards)
+        dcards = PhotoImage (file = "cards/back.gif")     # Declare the back of a card (for the dealer's cards)
 
         count = 0           # Keep track of how many times the loop has been looped through
         for i in range (1, 3):      # Deal cards to user and dealer (2 each)
